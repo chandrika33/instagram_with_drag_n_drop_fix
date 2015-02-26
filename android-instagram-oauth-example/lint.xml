@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/br/com/dina/oauth/instagram/example/ListLoader.java" />
+        <ignore path="src/br/com/dina/oauth/instagram/example/TouchImageView.java" />
+    </issue>
+</lint>
