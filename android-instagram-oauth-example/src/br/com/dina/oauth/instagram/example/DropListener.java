@@ -1,6 +1,6 @@
 
 
-package br.com.oauth.instagram.example;
+package br.com.dina.oauth.instagram.example;
 
 /**
  * Implement to handle an item being dropped.
