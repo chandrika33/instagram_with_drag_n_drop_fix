@@ -1,4 +1,4 @@
-package br.com.dina.oauth.instagram.example;
+package br.com.oauth.instagram.example;
 
 import java.io.File;
 import java.io.FileInputStream;
