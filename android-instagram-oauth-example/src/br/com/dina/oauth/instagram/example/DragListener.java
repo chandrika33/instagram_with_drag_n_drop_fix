@@ -1,5 +1,5 @@
 
-package br.com.dina.oauth.instagram.example;
+package br.com.oauth.instagram.example;
 
 import android.view.View;
 import android.widget.ListView;
