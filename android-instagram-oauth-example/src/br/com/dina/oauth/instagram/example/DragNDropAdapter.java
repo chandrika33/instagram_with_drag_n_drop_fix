@@ -1,5 +1,5 @@
 
-package br.com.oauth.instagram.example;
+package br.com.dina.oauth.instagram.example;
 
 import java.util.ArrayList;
 
