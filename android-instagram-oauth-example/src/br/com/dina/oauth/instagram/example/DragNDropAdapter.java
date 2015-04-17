@@ -77,42 +77,7 @@ public final class DragNDropAdapter extends BaseAdapter implements RemoveListene
 
 	}
 
-	/*public View getView(int position, View convertView, ViewGroup parent) {
 
-		View vi = convertView;
-		ViewHolder holder;
-
-		try {
-			Log.e(TAG, "getView ---" + mContent);
-			if (convertView == null) {
-
-				*//****** Inflate tabitem.xml file for each row ( Defined below ) *******//*
-				vi = inflater.inflate(R.layout.list_row, null);
-
-				*//****** View Holder Object to contain tabitem.xml file elements ******//*
-
-				holder = new ViewHolder();
-				holder.text = (TextView) vi.findViewById(R.id.textView1);
-				holder.image = (ImageView) vi.findViewById(R.id.imageView1);
-
-				*//************ Set holder with LayoutInflater ************//*
-				vi.setTag(holder);
-			} else {
-				holder = (ViewHolder) vi.getTag();
-			}
-
-			ImageView image = holder.image;
-			Log.e(TAG, "content ---" + mContent);
-			// DisplayImage function from ImageLoader Class
-			imageLoader.DisplayImage(mContent.get(position), image);
-
-			*//******** Set Item Click Listner for LayoutInflater for each row ***********//*
-			vi.setOnClickListener(new OnItemClickListener(position));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		return vi;
-	}*/
 	
 	 public View getView(int position, View convertView, ViewGroup parent) {
 	        // A ViewHolder keeps references to children views to avoid unneccessary calls
